@@ -1,0 +1,66 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 04 July 2026 23:11:43
+   Source : D:\CrossLayer-RAN-Samsung-Prism--master\artifacts\models\
+     Dest : C:\Users\admin\Documents\CrossLayer-RAN-Samsung-Prism--master\artifacts\models\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  39	D:\CrossLayer-RAN-Samsung-Prism--master\artifacts\models\
+	    New File  		   1.5 m	anomaly_scores_farm14.parquet
+	    New File  		  808251	anomaly_scores_farm16.parquet
+	    New File  		   1.5 m	anomaly_scores_farm18.parquet
+	    New File  		   1.6 m	anomaly_scores_farm19.parquet
+	    New File  		  432872	anomaly_scores_farm23.parquet
+	    New File  		  12.3 m	autoencoder_farm14.joblib
+	    New File  		  12.3 m	autoencoder_farm16.joblib
+	    New File  		  12.3 m	autoencoder_farm18.joblib
+	    New File  		  12.3 m	autoencoder_farm19.joblib
+	    New File  		  12.3 m	autoencoder_farm23.joblib
+	    New File  		    3375	evaluation_report_metrics_v2.json
+	    New File  		    4577	evaluation_report_metrics_v4.json
+	    New File  		   1.3 m	isoforest_farm14.joblib
+	    New File  		   1.4 m	isoforest_farm16.joblib
+	    New File  		   1.3 m	isoforest_farm18.joblib
+	    New File  		   1.2 m	isoforest_farm19.joblib
+	    New File  		   1.3 m	isoforest_farm23.joblib
+	    New File  		 332.7 m	lof_farm14.joblib
+	    New File  		 152.0 m	lof_farm16.joblib
+	    New File  		 335.5 m	lof_farm18.joblib
+	    New File  		 423.1 m	lof_farm19.joblib
+	    New File  		  90.5 m	lof_farm23.joblib
+	    Newer     		    2135	multimodel_results.json
+	    New File  		    2229	multimodel_results_v2.json
+	    New File  		    2702	multimodel_results_v4.json
+	    New File  		  400407	pca_farm14.joblib
+	    New File  		  375119	pca_farm16.joblib
+	    New File  		  380183	pca_farm18.joblib
+	    New File  		  370071	pca_farm19.joblib
+	    New File  		  344783	pca_farm23.joblib
+	    New File  		   32463	scaler_farm14.joblib
+	    New File  		   32463	scaler_farm16.joblib
+	    New File  		   32463	scaler_farm18.joblib
+	    New File  		   32463	scaler_farm19.joblib
+	    New File  		   32463	scaler_farm23.joblib
+	    New File  		     997	thresholds.json
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :        39        36         3         0         0         0
+   Bytes :   1.377 g   1.377 g     8.6 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           1,87,22,36,167 Bytes/sec.
+   Speed :             1,07,130.211 MegaBytes/min.
+   Ended : 04 July 2026 23:11:44
+
